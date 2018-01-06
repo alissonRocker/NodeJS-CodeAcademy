@@ -1,0 +1,15 @@
+{
+  "name": "4-npm-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {},
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app",
+    "test": "node test",
+    "test-watch": "nodemon test"
+  },
+  "author": "",
+  "license": "ISC"
+}
