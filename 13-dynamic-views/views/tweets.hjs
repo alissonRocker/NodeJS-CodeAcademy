@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>{{title}}</h1>
+        <ul>
+            {{#tweets}}
+                <li>
+                    {{text}}
+                </li>
+            {{/tweets}}
+        </ul>
+
+        <a href="/">Voltar</a>
+    </body>
+</html>
