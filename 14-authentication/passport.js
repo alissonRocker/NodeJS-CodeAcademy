@@ -26,10 +26,10 @@ function register(req, email, password, done) {
         .first()
         .then((user) => {
             if(user) {
-                return done(null, false, {message: "uma conta para o email ja foi criado!"});
+                return done(null, false, {message: "an account with email already created!"});
             }
             if(password !== req.body.password2) {
-                return done(null, false, {message: "passwords don't match"});
+                return done(null, false, {message: "Passwords don't match"});
             }
 
             const newUser = {
