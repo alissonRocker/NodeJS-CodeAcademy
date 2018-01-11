@@ -81,7 +81,7 @@ express()
     Mysql
     create schema test;
     use test;
-    CREATE TABLE users (id integer primary key, username varchar(30));
+    CREATE TABLE users (id integer primary key auto_increment, username varchar(30));
     INSERT INTO users (id, username) VALUES (1, "Alisson"),(2, "Jaqueline"),(3, "Will"),(4, "Fernando"),(5, "Vitor");
 
     GET /users show all users

@@ -45,5 +45,5 @@ express()
     TEST
     mysql
 
-ALTER TABLE users add column email varchar(100), add column first_name varchar(30), add column last_name varchar(30), add column password varchar(80);
+    ALTER TABLE users add column email varchar(100), add column first_name varchar(30), add column last_name varchar(30), add column password varchar(80);
 */
